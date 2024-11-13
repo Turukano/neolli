@@ -39,7 +39,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 
 [SYM] = LAYOUT(
-KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO
+    KC_TAB,      KC_NO,    KC_UNDS,    KC_LBRC,    KC_RBRC,    KC_CIRC,         KC_EXLM,    KC_LT,    KC_GT,    KC_EQL,    KC_AMPR,   KC_NO,    KC_BSPC,
+    MO(SYM),     KC_BSLS,    KC_SLSH,    KC_LCBR,    KC_RCBR,    KC_ASTR,         KC_QUES,    S(KC_9),    S(KC_0),    KC_MINS,    S(KC_SCLN),   KC_AT,        MO(SYM),
+    KC_LSFT,    KC_F,    KC_V,    DE_UDIA, DE_ADIA, DE_ODIA,      DE_Y,    DE_Z,    KC_COMM, KC_DOT,  KC_K,   KC_LSFT,        KC_ENTER,
+    KC_LCTL,    MO(NAVNUM),   KC_LGUI,   KC_LALT,    KC_BTN1,      KC_SPC,    MO(NAVNUM),   KC_NO,  OSL(CUST), MO(NAVNUM),       KC_RCTL
 ),
 
 [NAVNUM] = LAYOUT(
